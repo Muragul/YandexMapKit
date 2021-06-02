@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/markerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search_result" />
+
+    <TextView
+        android:id="@+id/markerTitle"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-22dp"
+        android:layout_marginLeft="-22dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/markerImage"
+        android:layout_toRightOf="@+id/markerImage"
+        android:paddingLeft="20dp"
+        android:text="Market Title" />
+
+</RelativeLayout>
